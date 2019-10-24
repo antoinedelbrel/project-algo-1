@@ -1,0 +1,9 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+.parent{
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 50px auto;
+}
