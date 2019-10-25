@@ -85,9 +85,9 @@ if (isset($_POST['depart']) && !empty($_POST['depart'])) {
     </div>
 
 
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <table class="table">
+    <div class="row resultat">
+        <div class="col-xs-10 col-sm-10 col-md-10">
+            <table class="table tableau">
                 <thead>
                     <tr>
                         <th scope="col">Ville de depart</th>
