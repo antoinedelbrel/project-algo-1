@@ -40,6 +40,10 @@ if (isset($_POST['depart']) && !empty($_POST['depart'])) {
 
         $duree = duree($distance);
 
+
+        if($duree >= 2){
+            $duree += 0.15;
+        }
         // var_dump(duree($distance));
         //header('location:index.php');
 
